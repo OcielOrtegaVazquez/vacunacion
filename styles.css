@@ -1,0 +1,23 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    transition: all 3s ease-out;
+}
+
+li {
+    margin-left: 1rem;
+}
+
+.navbar-gradient {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 49%, rgba(70, 150, 255, 0.5122782389322917) 79%, rgba(0, 111, 255, 0.4562558299687063) 100%);
+}
+
+.navbar-float {
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-align: center;
+}
